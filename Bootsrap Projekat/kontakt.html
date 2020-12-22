@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>Kontakt - Novine Online</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js">
+  </script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js">
+  </script>
+  <style>
+                 #kontakt{
+               background-color: #7386D5;
+               letter-spacing: 2px;
+               }
+              #kontakt a{
+               color: #fff;
+               text-decoration: none;
+              }
+
+
+              @media (max-width: 575.98px) {
+
+               #kontakt{padding-bottom: 800px;}
+               #kontakt .maps iframe{
+                 width: 100%;
+                 height: 450px;
+               }
+              }
+
+
+              @media (min-width: 576px) {
+
+                #kontakt{padding-bottom: 800px;}
+
+                #kontakt .maps iframe{
+                  width: 100%;
+                  height: 450px;
+                }
+              }
+
+              @media (min-width: 768px) {
+
+               #kontakt{padding-bottom: 350px;}
+
+               #kontakt .maps iframe{
+                 width: 100%;
+                 height: 850px;
+               }
+              }
+
+              @media (min-width: 992px) {
+               #kontakt{padding-bottom: 200px;}
+
+                #kontakt .maps iframe{
+                  width: 100%;
+                  height: 700px;
+                }
+              }
+
+
+              #author a{
+               color: #fff;
+               text-decoration: none;
+                 
+              }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <a href="index.html">
+        <h3>Novine<br>
+        Online</h3><strong>NO</strong></a>
+      </div>
+      <ul class="list-unstyled components">
+        <li>
+          <a href="index.html"><i class="fas fa-home"></i> Početna</a>
+        </li>
+        <li>
+          <a href="onama.html"><i class="fas fa-briefcase"></i> O nama</a> <a aria-expanded="false" class="dropdown-toggle" data-toggle="collapse" href="#pageSubmenu"><i class="fas fa-copy"></i> Kategorije</a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li>
+              <a href="kultura.html">Kultura</a>
+            </li>
+            <li>
+              <a href="sport.html">Sport</a>
+            </li>
+            <li>
+              <a href="hronika.html">Hronika</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="fotografije.html"><i class="fas fa-image"></i> Fotografije</a>
+        </li>
+        <li>
+          <a href="faq.html"><i class="fas fa-question"></i> FAQ</a>
+        </li>
+        <li></li>
+        <li class="active">
+          <a href="kontakt.html"><i class="fas fa-paper-plane"></i> Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="btn btn-info" id="sidebarCollapse" type="button"><i class="fas fa-align-left"></i> <span>Skupi/Raširi</span></button> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-dark d-inline-block d-lg-none ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><i class="fas fa-align-justify"></i></button>
+        </div>
+      </nav>
+      <div class="row" id="kontakt">
+        <div class="container mt-5">
+          <div class="row" style="height:550px;">
+            <div class="col-md-6 maps">
+              <iframe allowfullscreen frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1416.284573285278!2d20.47850161077495!3d44.76920098893858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70f8df8b60e1%3A0xd12e2aad5590e385!2sThe+School+of+Electrical+and+Computer+Engineering+of+Applied+Studies!5e0!3m2!1sen!2srs!4v1558893506578!5m2!1sen!2srs" style="border:0" width="600"></iframe>
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-uppercase mt-3 font-weight-bold text-white">KONTAKT STRANA</h2>
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control mt-2" placeholder="Ime i prezime" required="" type="text">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control mt-2" placeholder="Naslov poruke" required="" type="text">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control mt-2" placeholder="Email" required="" type="email">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control mt-2" placeholder="Telefon" required="" type="number">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Poruka" required="" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" id="invalidCheck2" required="" type="checkbox" value=""> <label class="form-check-label" for="invalidCheck2">Prihvati uslove korišćenja</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-light" type="submit">Pošalji</button>
+                  </div>
+                </div>
+              </form>
+              <div class="text-white">
+                <h2 class="text-uppercase mt-4 font-weight-bold">Gde se nalazimo</h2><i class="fas fa-phone mt-3"></i> <a href="tel:+">(+381) 123456</a><br>
+                <i class="fa fa-envelope mt-3"></i> <a href="mailto:kontakt@novineonline.com">kontakt@novineonline.com</a><br>
+                <i class="fas fa-globe mt-3"></i> 11000 Beograd<br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  </script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+  </script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+  </script> 
+  <script type="text/javascript">
+                     $(document).ready(function () {
+                         $('#sidebarCollapse').on('click', function () {
+                             $('#sidebar').toggleClass('active');
+                         });
+                     });
+  </script>
+  <footer class="page-footer font-small" style="background-color: #7386D5">
+    <div class="footer-copyright text-center py-3" style="color: white">
+      © Novine Online, 11000 Beograd
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>O nama - Novine Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js">
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html">
+                <h3>Novine<br>
+                Online</h3><strong>NO</strong></a>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html"><i class="fas fa-home"></i> Početna</a>
+                </li>
+                <li class="active">
+                    <a href="onama.html"><i class="fas fa-briefcase"></i> O nama</a>
+                </li>
+                <li>
+                    <a aria-expanded="false" class="dropdown-toggle" data-toggle="collapse" href="#pageSubmenu"><i class="fas fa-copy"></i> Kategorije</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="kultura.html">Kultura</a>
+                        </li>
+                        <li>
+                            <a href="sport.html">Sport</a>
+                        </li>
+                        <li>
+                            <a href="hronika.html">Hronika</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="fotografije.html"><i class="fas fa-image"></i> Fotografije</a>
+                </li>
+                <li>
+                    <a href="faq.html"><i class="fas fa-question"></i> FAQ</a>
+                </li>
+                <li>
+                    <a href="kontakt.html"><i class="fas fa-paper-plane"></i> Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="btn btn-info" id="sidebarCollapse" type="button"><i class="fas fa-align-left"></i> <span>Skupi/Raširi</span></button> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-dark d-inline-block d-lg-none ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><i class="fas fa-align-justify"></i></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                </div>
+            </nav>
+            <div id="main">
+                <div class="container">
+                    <div class="row">
+                        <section>
+                            <header>
+                                <h2>Naš princip i moto rada:</h2>
+                            </header>
+                            <div class="row">
+                                <section class="6u">
+                                    <ul class="default">
+                                        <li><nobr><strong>Pouzdanost</strong> - koristimo samo verodostojne izvore</nobr></li>
+                                        <li><nobr><strong>Kvalitet</strong> - svakog dana imamo preko hiljadu vernih čitalaca</nobr></li>
+                                        <li><nobr><nobr><strong>Upornost</strong> - svakog dana naš tim radi na novim stvarima</nobr></nobr></li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="8u skel-cell-important" id="content">
+                        <section>
+                            <p><strong>Novine Online</strong> su nastale kao ideja slobodnih i nezavisnih vesti. Već dugi niz godina nastojimo da budemo što verodostojniji našim čitaocima, uz to da očuvamo što viši kvalitet.</p>
+                            <p>Očekujemo da naši korisnici nastave da nas čitaju zbog zajedničkog poštovanja koje postoje, kao i to da svaki dan objavljujemo samo najbitnije vesti (isključujući politiku).</p>
+                            <p>Nakon 50 godina poslovanja kao obična hartija, odlučujemo da uplovimo u internet vode, gde veoma brzo doživljavamo veliki uspeh.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+    </script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+    </script> 
+    <script type="text/javascript">
+              $(document).ready(function () {
+                  $('#sidebarCollapse').on('click', function () {
+                      $('#sidebar').toggleClass('active');
+                  });
+              });
+    </script>
+    <footer class="page-footer font-small" style="background-color: #7386D5">
+        <div class="footer-copyright text-center py-3" style="color: white">
+            © Novine Online, 11000 Beograd
+        </div>
+    </footer>
+</body>
+</html>

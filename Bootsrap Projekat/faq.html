@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Često postavljena pitanja - Novine Online</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js">
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html">
+                <h3>Novine<br>
+                Online</h3><strong>NO</strong></a>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html"><i class="fas fa-home"></i> Početna</a>
+                </li>
+                <li>
+                    <a href="onama.html"><i class="fas fa-briefcase"></i> O nama</a> <a aria-expanded="false" class="dropdown-toggle" data-toggle="collapse" href="#pageSubmenu"><i class="fas fa-copy"></i> Kategorije</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="kultura.html">Kultura</a>
+                        </li>
+                        <li>
+                            <a href="sport.html">Sport</a>
+                        </li>
+                        <li>
+                            <a href="zabava.html">Zabava</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="fotografije.html"><i class="fas fa-image"></i> Fotografije</a>
+                </li>
+                <li></li>
+                <li class="active">
+                    <a href="faq.html"><i class="fas fa-question"></i> FAQ</a>
+                </li>
+                <li>
+                    <a href="kontakt.html"><i class="fas fa-paper-plane"></i> Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="btn btn-info" id="sidebarCollapse" type="button"><i class="fas fa-align-left"></i> <span>Skupi/Raširi</span></button> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-dark d-inline-block d-lg-none ml-auto" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><i class="fas fa-align-justify"></i></button>
+                </div>
+            </nav>
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <h2>Najčešće postavljena pitanja</h2>
+                <div class="alert alert-warning alert-dismissible" role="alert">
+                    <button class="close" data-dismiss="alert" type="button"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> U ovom delu se nalaze najčešće postavljena pitanja. Ukoliko postoji pitanje koje Vas interesuje, a ne nalazi se na ovoj stranici, molimo Vas da nas <u><a href="kontakt.html">kontaktirate</a></u>.
+                </div><br>
+                <div class="" id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-header"><a class="accordion-toggle" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">Da li poslujete samo preko interneta ili imate i prave novine za kupovinu?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse in" id="collapseOne">
+                            <div class="card-block">
+                                Trenutno je sav naš fokus preusmeren na usavršavanje preko interneta, ali svakako planiramo proširenje i na ostala tržišta.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-header"><a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseTen">Da li mogu da vam pošaljem neku vest ili obaveštenje ukoliko je niste još uvek objavili?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="collapseTen">
+                            <div class="card-block">
+                                Svakako. Najlakši način da to uradite je da nam pošaljete to što želite preko <u><a href="kontakt.html">kontakt stranice.</a></u>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-header"><a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseEleven">Kako mogu da se prijavim na bilten?</a></h4>
+                        </div>
+                        <div class="panel-collapse collapse" id="collapseEleven">
+                            <div class="card-block">
+                                Nažalost, ta funkcija je još uvek onemogućena, ali budite u toku sa našim sajtom kako biste saznali na vreme kada će biti puštena u rad.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+             
+
+             .panel-heading [data-toggle="collapse"]:after {
+                 
+                 float: right;
+                 color: #7386D5;
+                 font-size: 18px;
+                 line-height: 22px;
+                 
+                 -webkit-transform: rotate(-90deg);
+                 -moz-transform: rotate(-90deg);
+                 -ms-transform: rotate(-90deg);
+                 -o-transform: rotate(-90deg);
+                 transform: rotate(-90deg);
+             }
+
+             .panel-heading [data-toggle="collapse"].collapsed:after {
+                 
+                 -webkit-transform: rotate(90deg);
+                 -moz-transform: rotate(90deg);
+                 -ms-transform: rotate(90deg);
+                 -o-transform: rotate(90deg);
+                 transform: rotate(90deg);
+                 color:  #7386D5;
+             }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+    </script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+    </script> 
+    <script type="text/javascript">
+                 $(document).ready(function () {
+                     $('#sidebarCollapse').on('click', function () {
+                         $('#sidebar').toggleClass('active');
+                     });
+                 });
+    </script>
+    <footer class="page-footer font-small" style="background-color: #7386D5">
+        <div class="footer-copyright text-center py-3" style="color: white">
+            © Novine Online, 11000 Beograd
+        </div>
+    </footer>
+</body>
+</html>
